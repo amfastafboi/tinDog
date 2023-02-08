@@ -1,0 +1,179 @@
+* {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    font-size: large;
+}
+
+
+.n-margin {
+    margin-bottom: 40px;
+    padding-top: 0;
+}
+
+.website-title {
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.website-title:hover {
+    color: black;
+}
+
+.nav-item {
+    padding-right: 1.7rem;
+    font-size: 2.7vh;
+}
+
+.heading {
+    font-family: 'Montserrat';
+    line-height: 1.4;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: white;
+    padding-top: 5rem;
+}
+
+.container-fluid {
+    padding: 2% 12% 7%;
+}
+
+.btn {
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.phone-img {
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+@media (max-width: 989px) {
+    .phone-img {
+        position: static;
+        transform: none;
+        width: 50%;
+        margin-top: 70px;
+    }
+
+    .m-row{
+        text-align: center;
+    }
+}
+
+@media (max-width:1119px) and (min-width: 990px) {
+    .phone-img {
+        margin-left: 100px;
+        width: 30%;
+    }
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+p {
+    color: #8f8f8f;
+    font-weight: 570;
+}
+
+.r-feature {
+    line-height: 2;
+}
+
+.f-head{
+    font-weight: bolder;
+}
+
+.n-color {
+    margin-bottom: 1.2rem;
+    color: #ef8172;
+}
+
+.n-color:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.4rem;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-head {
+    font-weight: 900;
+    color: white;
+    font-size: 2.6rem;
+}
+
+#footer {
+    text-align: center;
+    padding: 3% 15% 0;
+}
+
+.ico {
+    padding: 0px 18px 15px;
+}
+
+.ico:hover {
+    cursor: pointer;
+    color: #ff4c68;
+}
+
+.ul {
+    text-decoration: underline;
+}
